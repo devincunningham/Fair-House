@@ -18,7 +18,7 @@ async def on_message(message):
 
     if 'banan' in message.content.lower():
         await message.channel.send(random.choice(['banana!', 'banan?!', 'mmmm,, banana!']))
-        await message.add_reaction("🍌")
+        await message.add_reaction("<:PogChimp:765315088344678440>")
 
 
 monke.run('Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY')
