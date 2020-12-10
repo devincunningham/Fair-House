@@ -1,6 +1,4 @@
 import random
-
-from discord.ext import commands
 import discord
 
 
@@ -10,11 +8,11 @@ monke = discord.Client()
 @monke.event
 async def on_ready():
     test_channel = monke.get_channel(775175775644811264)
-    await test_channel.send("Hello comrade.")
+    await test_channel.send("oooh oooh aaah aah!")
 
 
 @monke.event
-async def on_banana(message):
+async def on_message(message):
     if message.author == monke.user:
         return
 
