@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="" />
+    <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ec8269d7-d024-45a3-a655-a0be14652dde" />
   <component name="ProjectId" id="1k29flFU7plmljKz0vmAObd8D0m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -29,13 +38,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="MisterGorbotchev" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fair House" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="GORBOTCHEV" value="Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -67,7 +80,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604887924515</updated>
-      <workItem from="1604887929017" duration="3497000" />
+      <workItem from="1604887929017" duration="4787000" />
+      <workItem from="1605291599408" duration="593000" />
+      <workItem from="1605848473877" duration="288000" />
+      <workItem from="1607576593503" duration="721000" />
     </task>
     <servers />
   </component>
@@ -75,9 +91,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="789" y="359" key="SettingsEditor" timestamp="1605082081660">
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605083391672">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="789" y="359" key="SettingsEditor/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1605082081660" />
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1605083391672" />
+    <state x="1034" y="478" width="775" height="747" key="EnvironmentVariablesDialog" timestamp="1605083329451">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1034" y="478" width="775" height="747" key="EnvironmentVariablesDialog/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1605083329451" />
+    <state x="789" y="359" key="SettingsEditor" timestamp="1607577049323">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="789" y="359" key="SettingsEditor/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1607577049323" />
   </component>
 </project>
