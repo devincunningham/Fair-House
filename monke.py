@@ -18,8 +18,7 @@ async def on_message(message):
 
     if 'banan' in message.content.lower():
         await message.channel.send(random.choice(['banana!', 'banan?!', 'mmmm,, banana!']))
-
-        await message.add_reaction("banana")
+        await message.add_reaction(":banana:")
 
 
 monke.run('Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY')
