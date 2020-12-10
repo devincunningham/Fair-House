@@ -1,1 +1,1 @@
-worker: python MisterGorbotchev.py
+worker: python monke.py
