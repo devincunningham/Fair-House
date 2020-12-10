@@ -4,7 +4,6 @@
     <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monke.py" beforeDir="false" afterPath="$PROJECT_DIR$/monke.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1604887929017" duration="4787000" />
       <workItem from="1605291599408" duration="593000" />
       <workItem from="1605848473877" duration="288000" />
-      <workItem from="1607576593503" duration="3272000" />
+      <workItem from="1607576593503" duration="3920000" />
     </task>
     <servers />
   </component>
