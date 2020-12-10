@@ -15,7 +15,7 @@ async def on_ready():
 @commands.has_permissions(manage_messages=True)
 async def solidarity(ctx):
     await ctx.send("Forever!")
- 
+
 
 @gorbotchev.event
 async def on_message(message):
