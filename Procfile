@@ -1,2 +1,2 @@
-worker: python monke.py
-worker: python griller.py
+monke: python monke.py
+griller: python griller.py
