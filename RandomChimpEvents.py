@@ -7,6 +7,7 @@ class RandomChimpEvents(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.test_channel = 775175775644811264
+        self.cybermemes_channel = 753421717241725049
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -18,6 +19,10 @@ class RandomChimpEvents(commands.Cog):
     async def on_message(self, message):
         if message.author.id == self.bot.user.id:
             return
+
+        if message.channel == self.bot.get_channel(self.cybermemes_channel):
+
+            await message.add_reaction("<:laughmaker:767278745303384074>")
 
         if 'monke' in message.content.lower():
             print("Sending response.")
