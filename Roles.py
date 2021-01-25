@@ -19,7 +19,7 @@ class Roles(commands.Cog):
         self.dst_players = 803074526870110219
 
         # ID of reactions message in the Working Group Assignments channel.
-        self.role_message_id = 803088435933085706
+        self.role_message_id = 803093966722433094
         self.emoji_to_role = {
             '🏄': self.santa_cruz,
             '💙': self.he_him,
