@@ -94,7 +94,7 @@ class Roles(commands.Cog):
                 title="Random Chimp Event!",
                 description=f"You have been added to the **{role}** role.",
                 color=0xffe852)
-            embed.set_thumbnail(url="https://i.kym-cdn.com/entries/icons/mobile/000/034/479/cover6.jpg")
+            embed.set_thumbnail(url="https://styles.redditmedia.com/t5_38svbo/styles/communityIcon_9qgbj03dhls51.png")
             await payload.member.send(embed=embed)
         except discord.HTTPException as e:
             print(e)
@@ -130,7 +130,7 @@ class Roles(commands.Cog):
                 title="Random Chimp Event!",
                 description=f"You have been removed from the **{role}** role.",
                 color=0xffe852)
-            embed.set_thumbnail(url='https://i.pinimg.com/originals/b9/1b/e0/b91be0a519eea2f52b79e47d8cf64fb4.jpg')
+            embed.set_thumbnail(url='https://pbs.twimg.com/profile_images/3119912444/32e67236ee38f03fb9fa7e1cfd38b5c0.jpeg')
             await member.send(embed=embed)
         except discord.HTTPException as e:
             print(e)
