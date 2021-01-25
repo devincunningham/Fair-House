@@ -2,32 +2,8 @@ import random
 from discord.ext import commands
 import discord
 
-
-class RandomChimpEvents(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
-        self.test_channel = 775175775644811264
-
-    @commands.Cog.listener()
-    async def on_ready(self):
-        test_channel = self.bot.get_channel(self.test_channel)
-        await test_channel.send("oooh oooh aaah aah!")
-
-    @commands.Cog.listener()
-    async def on_message(self, message):
-        print(message.author.id)
-        print(self.bot.user.id)
-        if message.author.id == self.bot.user.id:
-            print("Not responding to self.")
-            return
-
-        if 'banan' in message.content.lower():
-            print("Sending response.")
-            await message.channel.send(random.choice(['banana!', 'banan?!', 'mmmm,, banana!']))
-            await message.add_reaction("<:PogChimp:765315088344678440>")
-
-            embed = discord.Embed(title="A random event has occurred.", description="-1 Bananas!", color=0xffe852)
-            await message.author.send(embed=embed)
+from RandomChimpEvents import RandomChimpEvents
+from Roles import Roles
 
 
 class Greetings(commands.Cog):
@@ -49,7 +25,8 @@ class Greetings(commands.Cog):
 intents = discord.Intents.default()
 intents.members = True
 
-bot = commands.Bot(command_prefix="!", intents=intents)
-bot.add_cog(RandomChimpEvents(bot))
-bot.add_cog(Greetings(bot))
-bot.run('Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY')
+monke = commands.Bot(command_prefix="!", intents=intents)
+monke.add_cog(RandomChimpEvents(monke))
+monke.add_cog(Roles(monke))
+monke.add_cog(Greetings(monke))
+monke.run('Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY')
