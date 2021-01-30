@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="" />
+    <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MonkeCogs/Greetings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomChimpEvents.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonkeCogs/RandomChimpEvents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Roles.py" beforeDir="false" afterPath="$PROJECT_DIR$/MonkeCogs/Roles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/griller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monke.py" beforeDir="false" afterPath="$PROJECT_DIR$/monke.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +29,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,15 +43,35 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cogs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.list_interview">
+    <configuration name="list_interview" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fair House" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list_interview.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="monke" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fair House" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="GORBOTCHEV" value="Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -63,10 +89,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.list_interview" />
+        <item itemvalue="Python.list_interview" />
+        <item itemvalue="Python.monke" />
+        <item itemvalue="Python.monke" />
         <item itemvalue="Python.monke" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,12 +112,20 @@
       <workItem from="1605291599408" duration="593000" />
       <workItem from="1605848473877" duration="288000" />
       <workItem from="1607576593503" duration="4911000" />
-      <workItem from="1607655836104" duration="964000" />
+      <workItem from="1607655836104" duration="1792000" />
+      <workItem from="1607988758965" duration="16000" />
+      <workItem from="1609183454275" duration="360000" />
+      <workItem from="1609222035500" duration="185000" />
+      <workItem from="1609528672429" duration="670000" />
+      <workItem from="1610333195819" duration="7311000" />
+      <workItem from="1611429413031" duration="5418000" />
+      <workItem from="1611536887694" duration="8760000" />
+      <workItem from="1611556534057" duration="3412000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605083391672">

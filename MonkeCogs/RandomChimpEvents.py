@@ -21,8 +21,8 @@ class RandomChimpEvents(commands.Cog):
             return
 
         if message.channel == self.bot.get_channel(self.cybermemes_channel):
-
-            await message.add_reaction("<:laughmaker:767278745303384074>")
+            if random.choice([True, False]):
+                await message.add_reaction("<:laughmaker:767278745303384074>")
 
         if 'monke' in message.content.lower():
             print("Sending response.")
