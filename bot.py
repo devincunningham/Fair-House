@@ -14,4 +14,3 @@ monke = commands.Bot(command_prefix="!", intents=intents)
 monke.add_cog(RandomChimpEvents(monke))
 monke.add_cog(Roles(monke))
 monke.run(os.environ['FAIRHOUSE_BOT_TOKEN'])
-'Nzc1MTcyMTI3MTg2ODc4NDc0.X6idTQ.toLVXhf3pMvho5XsNaN1JLRImgY'
