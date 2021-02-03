@@ -20,21 +20,21 @@ class RandomChimpEvents(commands.Cog):
         if message.author.id == self.bot.user.id:
             return
 
-        if message.channel == self.bot.get_channel(self.cybermemes_channel):
-            if random.choice([True, False]):
-                await message.add_reaction("<:laughmaker:767278745303384074>")
-
-        if 'monke' in message.content.lower():
-            print("Sending response.")
-            await message.channel.send(random.choice(['monke! monke!!', 'aaahh! ooH?!']))
-            await message.add_reaction("<:PogChimp:765315088344678440>")
-            embed = discord.Embed(title="Random Chimp Event!", description="+1 Bananas!", color=0xffe852)
-            await message.author.send(embed=embed)
-
-        if 'banan' in message.content.lower():
-            print("Sending response.")
-            await message.channel.send(random.choice(['banana!', 'banan?!', 'mmmm,, banana!']))
-            await message.add_reaction("<:PogChimp:765315088344678440>")
-
-            embed = discord.Embed(title="Random Chimp Event!", description="-1 Bananas!", color=0xffe852)
-            await message.author.send(embed=embed)
+        # if message.channel == self.bot.get_channel(self.cybermemes_channel):
+        #     if random.choice([True, False]):
+        #         await message.add_reaction("<:laughmaker:767278745303384074>")
+        #
+        # if 'monke' in message.content.lower():
+        #     print("Sending response.")
+        #     await message.channel.send(random.choice(['monke! monke!!', 'aaahh! ooH?!']))
+        #     await message.add_reaction("<:PogChimp:765315088344678440>")
+        #     embed = discord.Embed(title="Random Chimp Event!", description="+1 Bananas!", color=0xffe852)
+        #     await message.author.send(embed=embed)
+        #
+        # if 'banan' in message.content.lower():
+        #     print("Sending response.")
+        #     await message.channel.send(random.choice(['banana!', 'banan?!', 'mmmm,, banana!']))
+        #     await message.add_reaction("<:PogChimp:765315088344678440>")
+        #
+        #     embed = discord.Embed(title="Random Chimp Event!", description="-1 Bananas!", color=0xffe852)
+        #     await message.author.send(embed=embed)
