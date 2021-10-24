@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monke.py" beforeDir="false" afterPath="$PROJECT_DIR$/monke.py" afterDir="false" />
-    </list>
+    <list default="true" id="fb512744-2c14-49b6-ac92-2eb468f4119d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +25,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,7 +43,48 @@
       <recent name="$PROJECT_DIR$/Cogs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.list_interview">
+  <component name="RunManager" selected="Python.bill_splitter">
+    <configuration name="add_two_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fair House" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_two_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bill_splitter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fair House" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bill_splitter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fair House" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,13 +129,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_imports" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fair House" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_imports.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.list_interview" />
-        <item itemvalue="Python.list_interview" />
-        <item itemvalue="Python.bot" />
-        <item itemvalue="Python.bot" />
-        <item itemvalue="Python.bot" />
+        <item itemvalue="Python.bill_splitter" />
+        <item itemvalue="Python.bill_splitter" />
+        <item itemvalue="Python.bill_splitter" />
+        <item itemvalue="Python.test_imports" />
+        <item itemvalue="Python.add_two_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -124,24 +186,30 @@
       <workItem from="1611536887694" duration="8760000" />
       <workItem from="1611556534057" duration="3850000" />
       <workItem from="1612037148567" duration="259000" />
+      <workItem from="1620510136754" duration="687000" />
+      <workItem from="1620765835840" duration="8000" />
+      <workItem from="1623625982404" duration="2769000" />
+      <workItem from="1625860707680" duration="2778000" />
+      <workItem from="1629677494549" duration="6855000" />
+      <workItem from="1629778506373" duration="1234000" />
+      <workItem from="1630694932925" duration="183000" />
+      <workItem from="1630978921725" duration="1184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605083391672">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1605083391672" />
-    <state x="1034" y="478" width="775" height="747" key="EnvironmentVariablesDialog" timestamp="1605083329451">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="1034" y="478" width="775" height="747" key="EnvironmentVariablesDialog/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1605083329451" />
-    <state x="789" y="359" key="SettingsEditor" timestamp="1607581267412">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="789" y="359" key="SettingsEditor/0.0.2560.1440/-1680.308.1680.1050@0.0.2560.1440" timestamp="1607581267412" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
