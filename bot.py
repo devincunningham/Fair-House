@@ -3,8 +3,8 @@ import os
 from discord.ext import commands
 import discord
 
-from FairHouseBotCogs.RandomChimpEvents import RandomChimpEvents
-from FairHouseBotCogs.Roles import Roles
+from cogs.random_chimp_events import RandomChimpEvents
+from cogs.roles import Roles
 
 
 intents = discord.Intents.default()
